@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- This line makes the site fit phone screens. Do not delete it. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ATTACHMENT REVEAL PO ATE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>AMG Drei's Loadout Locker</h1>
+    <p>Click mo lang yung attachments ah</p>
+  </header>
+
+  <main class="wrap">
+    <div class="tools">
+      <div id="chips" class="chips"></div>
+      <input id="search" type="search" placeholder="Search weapons" aria-label="Search weapons">
+    </div>
+    <p id="count" class="count"></p>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <!-- Order matters: data first, then the code that uses it -->
+  <script src="weapons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
